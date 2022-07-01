@@ -12,17 +12,20 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("Last digit of %d is", n);
+
+	int lazt = n%10;
+
+	printf("Last digit of %d is %d ", n, lazt);
 /* my code is here */
-	if (n > 5)
+	if (lazt > 5)
 	{
 		printf("greater than 5\n");
 	}
-	if (n == 0)
+	else if (lazt == 0)
 	{
-		printf("is zero\n");
+		printf("0\n");
 	}
-	if (n < 6 && n != 0)
+	else
 	{
 		printf("less than 6 and not 0\n");
 	}
