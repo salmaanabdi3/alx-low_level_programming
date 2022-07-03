@@ -1,1 +1,1 @@
-this repo is for learning c programming language 
+this for all  c programing language
