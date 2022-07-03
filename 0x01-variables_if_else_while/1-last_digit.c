@@ -8,12 +8,11 @@
  */
 int main(void)
 {
-	int n;
+	int n, lazt;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
-	int lazt = n%10;
+	lazt = n % 10;
 
 	printf("Last digit of %d is %d ", n, lazt);
 /* my code is here */
