@@ -14,6 +14,6 @@ int main(void)
 		putchar(xaraf);
 	for (xaraf = 'A'; xaraf <= 'Z'; xaraf++)
 		putchar(xaraf);
-	printf("\n");
+	putchar('\n');
 	return (0);
 }

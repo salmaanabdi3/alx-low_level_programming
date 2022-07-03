@@ -11,7 +11,8 @@ int main(void)
 	char xaraf;
 
 	for (xaraf = 'a'; xaraf <= 'z'; xaraf++)
-		putchar(xaraf);
+		if (xaraf != 'q' && xaraf != 'e')
+			putchar(xaraf);
 	putchar('\n');
 	return (0);
 }
